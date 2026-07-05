@@ -1,20 +1,26 @@
-<<<<<<< HEAD
-# movie_app
-=======
-# filmology
->>>>>>> 58177e1583028d4b19aed18346d1d4bb33312c99
+# Filmology
 
-A new Flutter project.
+A professional mobile application developed using **Flutter**, leveraging **Cubit/BLoC** for efficient state management. This project serves as a showcase of clean architecture, modular design, and seamless user experience.
+
+## Technical Highlights
+- **State Management:** Implemented complex state flows using Cubit/BLoC to ensure application stability and maintainability.
+- **Architecture:** Structured with clean architecture principles to separate concerns and enhance code scalability.
+- **Responsive UI:** Built a modern, user-friendly interface tailored for movie browsing and search.
+
+## Tech Stack
+- **Framework:** Flutter
+- **State Management:** BLoC / Cubit
+- **Language:** Dart
 
 ## Getting Started
+To get this project running locally:
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
+   `git clone https://github.com/aylasrhan/filmology.git`
+2. Install dependencies:
+   `flutter pub get`
+3. Run the application:
+   `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+*Developed by Ayla.*
