@@ -1,26 +1,37 @@
-# Filmology
+# Filmology – Movie Discovery & Review Mobile Application (Flutter)
 
-A professional mobile application developed using **Flutter**, leveraging **Cubit/BLoC** for efficient state management. This project serves as a showcase of clean architecture, modular design, and seamless user experience.
-
-## Technical Highlights
-- **State Management:** Implemented complex state flows using Cubit/BLoC to ensure application stability and maintainability.
-- **Architecture:** Structured with clean architecture principles to separate concerns and enhance code scalability.
-- **Responsive UI:** Built a modern, user-friendly interface tailored for movie browsing and search.
-
-## Tech Stack
-- **Framework:** Flutter
-- **State Management:** BLoC / Cubit
-- **Language:** Dart
-
-## Getting Started
-To get this project running locally:
-
-1. Clone the repository:
-   `git clone https://github.com/aylasrhan/filmology.git`
-2. Install dependencies:
-   `flutter pub get`
-3. Run the application:
-   `flutter run`
+**Filmology** is a modern, dark-themed cross-platform mobile application built with **Flutter** and **Dart** for discovering trending films, watching trailers, and sharing user reviews. Engineered using **Feature-First Clean Architecture**, **SOLID principles**, and **BLoC/Cubit** state management.
 
 ---
-*Developed by Ayla.*
+
+## Key Features
+
+- **Movie Discovery & Search:** Browse trending and recommended movies with dynamic genre filtering (`Action`, `Sci-Fi`, etc.) and real-time search.
+- **Rich Movie Details & Trailers:** View film synopses, Rotten Tomatoes & community ratings, cast profiles, and stream official movie trailers in-app.
+- **Interactive Reviews & Ratings (CRUD):** Authenticated users can post, edit, delete, and rate movie reviews in real time.
+- **Secure Networking & Routing:** Custom API consumer layer with `auth_interceptor`, dependency injection (`di`), and centralized declarative routing (`app_router`).
+
+---
+
+## Tech Stack & Architecture
+
+- **Framework & Language:** Flutter, Dart
+- **Architecture:** Feature-First Clean Architecture (`data`, `domain`, `presentation`), SOLID Principles
+- **State Management & DI:** BLoC / Cubit, Dependency Injection
+- **Networking & Media:** RESTful API Integration with Auth Interceptors, In-App Video Trailer Player
+
+---
+
+## Screenshots
+
+| Discover & Categories | Movie Details & Trailer | Cast & User Reviews |
+| :---: | :---: | :---: |
+| ![Discover Screen](main.png) | ![Movie Details](watch_trailer.png) | ![Reviews & Cast](home_screen%20(2).jpeg) |
+
+---
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/aylasrhan/filmology.git](https://github.com/aylasrhan/filmology.git)
